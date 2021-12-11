@@ -745,3 +745,11 @@ footer .bottom-details .bottom_text{
     width: 100%;
   }
 }
+
+.button-design{
+  font-weight: bold;
+  text-decoration: none;
+}
+.button-design:hover{
+  color: black;
+}

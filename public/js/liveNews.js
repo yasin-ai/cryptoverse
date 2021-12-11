@@ -51,7 +51,7 @@ const fillPage = (c) => {
                   <p>${c[5]} <br><h5> Source: ${c[2]}</h5></p>
                   
                   <div>
-                  <a class="btn_primary" href='${c[6]}'>Read More</a>
+                  <a class="btn_primary button-design" href='${c[6]}' target = '_blank'>Read More</a>
                   </div>
                   </div> 
                   `;
