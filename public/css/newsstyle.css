@@ -752,4 +752,5 @@ footer .bottom-details .bottom_text{
 }
 .button-design:hover{
   color: black;
+  text-decoration: none;
 }
