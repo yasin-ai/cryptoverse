@@ -1,7 +1,6 @@
 
 const newsUrl = "https://min-api.cryptocompare.com/data/v2/news/?lang=EN&apiKey=cb61428f173bd9dfe46ab55e0eed23fa04c30251eb044150e3e5731135e975fa";
 
-
 const fetchUrl = async (url) => {
   let response = await fetch(url);
   let data = await response.json();
