@@ -31,6 +31,9 @@ $(document).ready(function () {
             // DATA FROM JSON OBJECT
             student += '<tr>';
             student += '<td>' + 
+                value.rank + '</td>';
+
+            student += '<td>' + 
                 value.name + '</td>';
 
             student += '<td>' + 

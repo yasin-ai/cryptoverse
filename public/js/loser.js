@@ -13,6 +13,9 @@ $(document).ready(function () {
             // DATA FROM JSON OBJECT
             student += '<tr>';
             student += '<td class = "loser">' + 
+            value.rank + '</td>';
+
+            student += '<td class = "loser">' + 
                 value.name + '</td>';
 
             student += '<td class = "loser">' + 
@@ -21,7 +24,7 @@ $(document).ready(function () {
             student += '<td class = "loser">' + 
                 value.price + '</td>';
 
-            student += '<td class = "loser">' + 
+            student += '<td class = "loser"> - ' + 
                 value.change + '</td>';
 
             student += '</tr>';
