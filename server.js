@@ -6,7 +6,7 @@ const fs = require("fs");
 const bodyParser = require("body-parser");
 
 var app = express();
-var port = process.env.PORT || 8080;
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json({ extended: false }));
@@ -20,6 +20,19 @@ app.use((req, res, next) => {
   next();
 });
 
+
+
+
+
+
+app.use(express.static("public"));
+app.use("/css", express.static(__dirname + "/public/css"));
+app.use("/js", express.static(__dirname + "/public/js"));
+app.use("/images", express.static(__dirname + "/public/images"));
+
+app.set("view engine", "ejs");
+app.use("/events", require("./routes/event"));
+app.set("views", "./views");
 
 
 async function getPriceFeed() {
@@ -127,19 +140,6 @@ async function getPriceFeed() {
 
 getPriceFeed();
 
-
-
-app.use(express.static("public"));
-app.use("/css", express.static(__dirname + "/public/css"));
-app.use("/js", express.static(__dirname + "/public/js"));
-app.use("/images", express.static(__dirname + "/public/images"));
-
-app.set("view engine", "ejs");
-app.use("/events", require("./routes/event"));
-app.set("views", "./views");
-
-
-
 app.use(express.static(path.join(__dirname, "/client", "build")));
 
 app.route("/portfolio").get((req, res) => {
@@ -147,7 +147,7 @@ app.route("/portfolio").get((req, res) => {
 });
 
 
-
+var port = process.env.PORT || 8080;
 
 
 app.listen(port, function() {
