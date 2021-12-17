@@ -136,6 +136,29 @@
         </tbody>
       </table>
 </div>
+
+<div id="subscription_area" style="margin-top: 70px; margin-bottom: 70px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="subscribe_now">
+          
+      <p>Search Your Coin</p>
+          <form class="subscribe_form">
+            <div class="input-group">
+             
+               <input type="text" class="form-control"  id="myInput" name="email" autocomplete="off" placeholder="Enter Coin Name">
+               <span class="input-group-btn">
+                    <button class="btn btn-default" id="myBtn" type="button">Search</button>
+               </span>
+               <div class="autocomple"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
       <!-- Tabs -->
       <ul class="nav nav-tabs">
         <li class="nav-item">
@@ -217,8 +240,18 @@
                 
               </tr>
               <tr>
+                <th scope="row" id="athnd"></th>
+                <td id="athd"></td>
+                
+              </tr>
+              <tr>
                 <th scope="row" id="atln"></th>
                 <td id="atl"></td>
+                
+              </tr>
+              <tr>
+                <th scope="row" id="atlnd"></th>
+                <td id="atld"></td>
                 
               </tr>
               <tr>
@@ -399,6 +432,8 @@
     <script src="https://widgets.coingecko.com/coingecko-coin-market-ticker-list-widget.js"></script>
     <script src="https://widgets.coingecko.com/coingecko-coin-compare-chart-widget.js"></script>
     <script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
     <script src="js/coin.js"></script>
+    <script src="js/search.js"></script>
   </body>
 </html>
