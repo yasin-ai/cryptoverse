@@ -69,7 +69,6 @@
             
             $(`<td class='${data[key].price_change_percentage_24h >= 0 ? "text-success" : "text-danger"} 
             text-right'></td>`).text(Number(data[key].price_change_percentage_24h).toFixed(2) + "%"),
-            $('<td class="text-right"></td>').text("₹" + number.format(data[key].high_24h.toFixed(2)) + "/" + "₹" + number.format(data[key].low_24h.toFixed(2))),
             $('<td class="text-right"></td>').text("₹" + number.format(data[key].total_volume)),
             $('<td class="text-right"></td>').text(number.format(data[key].circulating_supply.toFixed()) + 
             " " + data[key].symbol.toUpperCase()),
