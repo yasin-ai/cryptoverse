@@ -123,6 +123,14 @@ function generateListElements(data) {
   $('#atlnd').text(data.name + " " + "ATL Date")
   $('#atld').text((moment(data.market_data.atl_date.inr)).format("llll") + " " + "("+ (moment(data.market_data.atl_date.inr, "YYYYMMDD")).fromNow()+ ")")
 
+  $('<li class="list-group-item"></li>').html("Homepage: " + 
+      data.links.homepage[0].link(data.links.homepage[0]))
+
+      $('#hpgn').text(data.name + " " + "HomePage")
+      $('#hpg').html(data.links.homepage[0].link(data.links.homepage[0]))
+
+     
+
 };
 function generateTrendBody(data){
   let btc = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=inr"
