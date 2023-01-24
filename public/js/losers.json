@@ -2,211 +2,211 @@
   {
     "rank": "44",
     "name": "Axie Infinity",
-    "price": "$11.81",
-    "change": "6.38%",
-    "volume": "$392,522,280"
+    "price": "$11.80",
+    "change": "7.50%",
+    "volume": "$382,184,518"
   },
   {
-    "rank": "85",
+    "rank": "86",
     "name": "GMX",
-    "price": "$52.06",
-    "change": "5.28%",
-    "volume": "$35,399,225"
-  },
-  {
-    "rank": "75",
-    "name": "ImmutableX",
-    "price": "$0.6867",
-    "change": "3.66%",
-    "volume": "$19,068,606"
-  },
-  {
-    "rank": "31",
-    "name": "NEAR Protocol",
-    "price": "$2.50",
-    "change": "3.51%",
-    "volume": "$169,163,045"
-  },
-  {
-    "rank": "99",
-    "name": "Compound",
-    "price": "$50.76",
-    "change": "3.20%",
-    "volume": "$30,973,662"
-  },
-  {
-    "rank": "12",
-    "name": "Polkadot",
-    "price": "$6.50",
-    "change": "3.13%",
-    "volume": "$303,201,639"
-  },
-  {
-    "rank": "46",
-    "name": "The Sandbox",
-    "price": "$0.7738",
-    "change": "2.82%",
-    "volume": "$187,605,020"
-  },
-  {
-    "rank": "50",
-    "name": "Theta Network",
-    "price": "$1.05",
-    "change": "2.68%",
-    "volume": "$29,140,657"
-  },
-  {
-    "rank": "43",
-    "name": "Aave",
-    "price": "$84.28",
-    "change": "2.67%",
-    "volume": "$102,461,430"
-  },
-  {
-    "rank": "61",
-    "name": "Curve DAO Token",
-    "price": "$1.07",
-    "change": "2.57%",
-    "volume": "$107,725,568"
-  },
-  {
-    "rank": "18",
-    "name": "Uniswap",
-    "price": "$6.65",
-    "change": "2.54%",
-    "volume": "$114,169,571"
+    "price": "$51.90",
+    "change": "3.31%",
+    "volume": "$33,685,891"
   },
   {
     "rank": "34",
     "name": "Filecoin",
-    "price": "$5.26",
-    "change": "2.32%",
-    "volume": "$197,390,750"
+    "price": "$5.28",
+    "change": "2.91%",
+    "volume": "$188,257,845"
   },
   {
     "rank": "30",
-    "name": "OKB",
-    "price": "$35.55",
-    "change": "2.15%",
-    "volume": "$33,437,095"
+    "name": "NEAR Protocol",
+    "price": "$2.50",
+    "change": "2.73%",
+    "volume": "$165,131,258"
   },
   {
-    "rank": "40",
-    "name": "Decentraland",
-    "price": "$0.7072",
-    "change": "2.15%",
-    "volume": "$186,352,727"
+    "rank": "99",
+    "name": "Compound",
+    "price": "$50.77",
+    "change": "2.71%",
+    "volume": "$30,495,925"
   },
   {
-    "rank": "37",
-    "name": "Hedera",
-    "price": "$0.0675",
+    "rank": "50",
+    "name": "Theta Network",
+    "price": "$1.04",
+    "change": "2.28%",
+    "volume": "$28,164,030"
+  },
+  {
+    "rank": "12",
+    "name": "Polkadot",
+    "price": "$6.51",
+    "change": "2.26%",
+    "volume": "$283,839,606"
+  },
+  {
+    "rank": "43",
+    "name": "Aave",
+    "price": "$84.26",
     "change": "2.13%",
-    "volume": "$38,048,302"
-  },
-  {
-    "rank": "47",
-    "name": "Fantom",
-    "price": "$0.3985",
-    "change": "1.76%",
-    "volume": "$263,174,031"
+    "volume": "$97,817,395"
   },
   {
     "rank": "70",
     "name": "Synthetix",
     "price": "$2.49",
-    "change": "1.72%",
-    "volume": "$27,107,650"
+    "change": "1.87%",
+    "volume": "$26,509,055"
+  },
+  {
+    "rank": "29",
+    "name": "OKB",
+    "price": "$35.61",
+    "change": "1.82%",
+    "volume": "$33,153,900"
+  },
+  {
+    "rank": "75",
+    "name": "ImmutableX",
+    "price": "$0.6881",
+    "change": "1.61%",
+    "volume": "$17,898,352"
+  },
+  {
+    "rank": "37",
+    "name": "Hedera",
+    "price": "$0.06687",
+    "change": "1.43%",
+    "volume": "$37,389,859"
+  },
+  {
+    "rank": "32",
+    "name": "Aptos",
+    "price": "$12.87",
+    "change": "1.40%",
+    "volume": "$856,543,864"
+  },
+  {
+    "rank": "46",
+    "name": "The Sandbox",
+    "price": "$0.7774",
+    "change": "1.37%",
+    "volume": "$181,368,678"
+  },
+  {
+    "rank": "40",
+    "name": "Decentraland",
+    "price": "$0.7089",
+    "change": "1.32%",
+    "volume": "$181,561,246"
+  },
+  {
+    "rank": "42",
+    "name": "Flow",
+    "price": "$1.17",
+    "change": "1.30%",
+    "volume": "$91,274,843"
   },
   {
     "rank": "45",
     "name": "EOS",
     "price": "$1.08",
-    "change": "1.69%",
-    "volume": "$109,447,840"
+    "change": "1.28%",
+    "volume": "$106,160,348"
+  },
+  {
+    "rank": "6",
+    "name": "XRP",
+    "price": "$0.4243",
+    "change": "1.27%",
+    "volume": "$1,227,147,254"
+  },
+  {
+    "rank": "85",
+    "name": "EthereumPoW",
+    "price": "$4.05",
+    "change": "1.26%",
+    "volume": "$13,370,003"
+  },
+  {
+    "rank": "82",
+    "name": "Nexo",
+    "price": "$0.8125",
+    "change": "1.26%",
+    "volume": "$37,339,823"
+  },
+  {
+    "rank": "55",
+    "name": "Bitcoin SV",
+    "price": "$44.18",
+    "change": "1.15%",
+    "volume": "$43,406,627"
+  },
+  {
+    "rank": "23",
+    "name": "Monero",
+    "price": "$174.93",
+    "change": "1.02%",
+    "volume": "$85,933,586"
   },
   {
     "rank": "24",
     "name": "Ethereum Classic",
-    "price": "$22.33",
-    "change": "1.69%",
-    "volume": "$217,436,213"
-  },
-  {
-    "rank": "86",
-    "name": "EthereumPoW",
-    "price": "$4.04",
-    "change": "1.58%",
-    "volume": "$13,284,402"
-  },
-  {
-    "rank": "74",
-    "name": "Dash",
-    "price": "$51.59",
-    "change": "1.42%",
-    "volume": "$83,388,850"
-  },
-  {
-    "rank": "79",
-    "name": "Osmosis",
-    "price": "$0.9593",
-    "change": "1.39%",
-    "volume": "$17,401,242"
-  },
-  {
-    "rank": "13",
-    "name": "Shiba Inu",
-    "price": "$0.00001189",
-    "change": "1.38%",
-    "volume": "$214,110,501"
+    "price": "$22.43",
+    "change": "1.01%",
+    "volume": "$212,492,844"
   },
   {
     "rank": "51",
     "name": "Tezos",
     "price": "$1.11",
-    "change": "1.35%",
-    "volume": "$26,343,516"
+    "change": "0.89%",
+    "volume": "$25,885,289"
   },
   {
-    "rank": "26",
-    "name": "Bitcoin Cash",
-    "price": "$131.97",
-    "change": "1.27%",
-    "volume": "$194,493,483"
+    "rank": "61",
+    "name": "Curve DAO Token",
+    "price": "$1.08",
+    "change": "0.84%",
+    "volume": "$106,559,177"
   },
   {
-    "rank": "94",
-    "name": "Helium",
-    "price": "$2.90",
-    "change": "1.25%",
-    "volume": "$4,016,187"
+    "rank": "18",
+    "name": "Uniswap",
+    "price": "$6.68",
+    "change": "0.76%",
+    "volume": "$109,435,763"
   },
   {
-    "rank": "21",
-    "name": "Chainlink",
-    "price": "$6.98",
-    "change": "1.11%",
-    "volume": "$294,544,177"
+    "rank": "74",
+    "name": "Dash",
+    "price": "$51.68",
+    "change": "0.76%",
+    "volume": "$82,447,741"
   },
   {
-    "rank": "23",
-    "name": "Monero",
-    "price": "$174.31",
-    "change": "1.11%",
-    "volume": "$88,172,204"
+    "rank": "47",
+    "name": "Fantom",
+    "price": "$0.3977",
+    "change": "0.61%",
+    "volume": "$251,615,996"
   },
   {
-    "rank": "33",
-    "name": "Aptos",
-    "price": "$12.89",
-    "change": "1.08%",
-    "volume": "$866,375,816"
+    "rank": "71",
+    "name": "Gemini Dollar",
+    "price": "$0.9981",
+    "change": "0.56%",
+    "volume": "$1,302,651"
   },
   {
-    "rank": "55",
-    "name": "Bitcoin SV",
-    "price": "$44.26",
-    "change": "1.08%",
-    "volume": "$43,430,362"
+    "rank": "79",
+    "name": "Osmosis",
+    "price": "$0.9556",
+    "change": "0.54%",
+    "volume": "$16,290,709"
   }
 ]

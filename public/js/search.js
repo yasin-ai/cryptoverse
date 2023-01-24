@@ -2,7 +2,7 @@ $(document).ready(function(){
     // Get value on button click and show alert
     $("#myBtn").click(function(){
         var str = $("#myInput").val();
-        window.location.href = `https://cryptooverse.vercel.app/coin.html?${str}`;
+        window.location.href = `/coin.html?${str}`;
         
 
     });
