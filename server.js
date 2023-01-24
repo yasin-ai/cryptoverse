@@ -135,9 +135,10 @@ async function getPriceFeed() {
 
 getPriceFeed();
 
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+app.get('/*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'public', req.url));
 });
+
 
 app.use(express.static(path.join(__dirname, "/client", "build")));
 
