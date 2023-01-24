@@ -23,7 +23,7 @@ const prepare = (data) => {
       key.source_info.name,
       key.title,
       new Date(key.published_on * 1000).toLocaleDateString("en-US"),
-      key.body,
+      key.body.slice(0, 350) + "...",
       key.url,
       key.tags,
       key.categories,
@@ -40,21 +40,24 @@ const fillPage = (c) => {
 
   div.innerHTML = `
                   
-                  <div class="wrapper">
-                  <div class="blog_post">
-                  <div class="img_pod">
-                  <img src="${c[1]}" alt="${c[2]}, ${c[7]}"></img>
-                  </div>
-                  <div class="container_copy">
-                  <h3>${c[4]}</h3>
-                  <h1>${c[3]}</h1>
-                  <p>${c[5]} <br><h5> Source: ${c[2]}</h5></p>
-                  
-                  <div>
-                  <a class="btn_primary button-design" href='${c[6]}' target = '_blank'>Read More</a>
-                  </div>
-                  </div> 
-                  `;
+  <div class="card-container">
+  <div class="news-card">
+  <div class="img-container" style ="background-image: url('${c[1]}');"></div>
+  <div class="card-content">
+  <h6>${c[4]}</h6>
+  <h4>${c[3]}</h4>
+  <p class="excerpt">${c[5]}</p>
+  <div class="author-cta-container">
+  <p class="author">${c[2]}</p>
+   <div class="cta">
+     <a class="read-more" href="${c[6]}">Read more &rarr;</a>
+   </div>
+</div>
+  </div> 
+  
+  </div>
+  </div>
+  `;
 
   app.append(div);
 };

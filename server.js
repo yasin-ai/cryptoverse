@@ -20,11 +20,6 @@ app.use((req, res, next) => {
   next();
 });
 
-
-
-
-
-
 app.use(express.static("public"));
 app.use("/css", express.static(__dirname + "/public/css"));
 app.use("/js", express.static(__dirname + "/public/js"));
@@ -46,8 +41,8 @@ async function getPriceFeed() {
     });
 
     const $ = cheerio.load(data);
-    const elemSelector = "#__next > div > div > div.sc-57oli2-0.comDeo.cmc-body-wrapper > div > div.sc-1yw69nc-0.DaVcG.table-wrap > div > div:nth-child(1) > div > table > tbody > tr";
-    const losers = "#__next > div > div > div.sc-57oli2-0.comDeo.cmc-body-wrapper > div > div.sc-1yw69nc-0.DaVcG.table-wrap > div > div:nth-child(2) > div > table > tbody > tr";
+    const elemSelector = "#__next > div > div.main-content > div.sc-1a736df3-0.PimrZ.cmc-body-wrapper > div > div.sc-c9a1573c-0.bmhBDj.table-wrap > div > div:nth-child(1) > div > table > tbody > tr";
+    const losers = "#__next > div > div.main-content > div.sc-1a736df3-0.PimrZ.cmc-body-wrapper > div > div.sc-c9a1573c-0.bmhBDj.table-wrap > div > div:nth-child(2) > div > table > tbody > tr";
     const keys = [
         'rank',
       'name',

@@ -6,7 +6,7 @@ const newsr=express.Router()
 
 newsr.get('/',async(req,res)=>{
     try {
-        var url = 'https://kryptocal.com/api/events?fromDate=2022-07-02&toDate=2022-10-28';
+        var url = 'https://kryptocal.com/api/events?fromDate=2023-02-02&toDate=2023-07-28';
 
         const news_get =await axios.get(url)
         res.render('event',{articles:news_get.data})
