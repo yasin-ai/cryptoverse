@@ -184,99 +184,12 @@ function getSelectedCurrency() {
 function getCurrenySymbol() {
   const currency = getSelectedCurrency();
   switch (currency) {
-    case "aed":
-      return "د.إ" + " " ;
-    case "ars":
-      return "$" + " " ;
-    case "aud":
-      return "$" + " " ;
-    case "bdt":
-      return "৳" + " " ;
-    case "bhd":
-      return "ب.د" + " " ;
-    case "bmd":
-      return "$" + " " ;
-    case "brl":
-      return "R$" + " " ;
-    case "cad":
-      return "$" + " " ;
-    case "chf":
-      return "CHF" + " " ;
-    case "clp":
-      return "$" + " " ;
-    case "czk":
-      return "Kč" + " " ;
-    case "dkk":
-      return "kr" + " " ;
-    case "gbp":
-      return "£" + " " ;
-    case "hkd":
-      return "$" + " " ;
-    case "huf":
-      return "Ft" + " " ;
-    case "ils":
-      return "₪" + " " ;
-    case "inr":
-      return "₹" + " " ;
-    case "kwd":
-      return "ك.د" + " " ;
-    case "lkr":
-      return "රු" + " " ;
-    case "mmk":
-      return "K" + " " ;
-    case "mxn":
-      return "$" + " " ;
-    case "myr":
-      return "RM" + " " ;
-    case "ngn":
-      return "₦" + " " ;
-    case "nok":
-      return "kr" + " " ;
-    case "nzd":
-      return "$" + " " ;
-    case "php":
-      return "₱" + " " ;
-    case "pkr":
-      return "₨" + " " ;
-    case "pln":
-      return "zł" + " " ;
-    case "sar":
-      return "ر.س" + " " ;
-    case "sek":
-      return "kr" + " " ;
-    case "sgd":
-      return "$" + " " ;
-    case "thb":
-      return "฿" + " " ;
-    case "try":
-      return "₺" + " " ;
-    case "uah":
-      return "₴" + " " ;
-    case "vef":
-      return "Bs.F." + " " ;
-    case "vnd":
-      return "₫" + " " ;
-    case "zar":
-      return "R" + " " ;
-    case "xdr":
-      return "SDR" + " " ;
-      case "usd":
-    return "$" + " " ;
-  case "idr":
-    return "Rp" + " " ;
-  case "twd":
-    return "NT$" + " " ;
-  case "eur":
-    return "€" + " " ;
-  case "krw":
-    return "₩" + " " ;
-  case "jpy":
-    return "¥" + " " ;
-  case "rub":
-    return "₽" + " " ;
-  case "cny":
-    return "¥" + " " ;
-  
+    case 'usd':
+      return '$';
+    case 'eur':
+      return '€';
+    case 'inr':
+      return '₹';
     // Add cases for other currencies as needed
     default:
       return '';

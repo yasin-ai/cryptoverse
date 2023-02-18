@@ -20,14 +20,24 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static("public"));
-app.use("/css", express.static(__dirname + "/public/css"));
-app.use("/js", express.static(__dirname + "/public/js"));
-app.use("/images", express.static(__dirname + "/public/images"));
+// app.use(express.static("public"));
+// app.use("/css", express.static(__dirname + "/public/css"));
+// app.use("/js", express.static(__dirname + "/public/js"));
+// app.use("/images", express.static(__dirname + "/public/images"));
 
-app.set("view engine", "ejs");
-app.use("/events", require("./routes/event"));
-app.set("views", "./views");
+// app.set("view engine", "ejs");
+// app.use("/events", require("./routes/event"));
+// app.set("views", "./views");
+// app.get('/*', (req, res) => {
+//   res.sendFile(path.resolve(__dirname, 'public', req.url));
+// });
+
+
+// app.use(express.static(path.join(__dirname, "client/build")));
+
+// app.get("/portfolio", (req, res) => {
+//   res.sendFile(path.join(__dirname, "client/build", "index.html"));
+// });
 
 
 async function getPriceFeed() {
@@ -135,9 +145,17 @@ async function getPriceFeed() {
 
 getPriceFeed();
 
-app.get('/*', (req, res) => {
+app.use(express.static("public"));
+app.use("/css", express.static(__dirname + "/public/css"));
+app.use("/js", express.static(__dirname + "/public/js"));
+app.use("/images", express.static(__dirname + "/public/images"));
+app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'public', req.url));
 });
+app.set("view engine", "ejs");
+app.use("/events", require("./routes/event"));
+app.set("views", "./views");
+
 
 
 app.use(express.static(path.join(__dirname, "/client", "build")));
@@ -145,7 +163,6 @@ app.use(express.static(path.join(__dirname, "/client", "build")));
 app.route("/portfolio").get((req, res) => {
   res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
 });
-
 
 var port = process.env.PORT || 8080;
 

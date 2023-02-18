@@ -9,7 +9,8 @@ let marketUrl = BASE_URL + MARKET_DATA_ENDPOINT;
 let trendingurl = "https://api.coingecko.com/api/v3/search/trending";
 
 $(document).ready(() => {
-  // Get the currency selector dropdown element
+  // Get the currency selector dropdown element\
+ 
   const currencySelector = document.getElementById("currency-selector");
 
   // Add an event listener to the currency selector dropdown
@@ -63,167 +64,19 @@ function generateListElements(data) {
       $(`<td class='text-center ${data.market_data.price_change_percentage_1y >= 0 ? "text-success" : "text-danger"} 
       text-right'></td>`).text(Number(data.market_data.price_change_percentage_1y).toFixed(2) + "%"),
     )
-  )
-  $('#headn').text(data.name + " " + "Price and Market Stats")
-
-  $('#price_name').text(data.name + " " + "Price")
-  $('#price').text("₹" + " " + number.format(data.market_data.current_price.inr))
-
-  $('#market_cap').text(data.name + " " + "Market Cap")
-  $('#market_cap_price').text("₹" + " " + number.format(data.market_data.market_cap.inr / 10000000) + " " + "Crore")
-
-  $('#trading_vol_name').text(data.name + " " + "Trading Volume")
-  $('#trading_volume').text("₹" + " " + number.format(data.market_data.total_volume.inr / 10000000) + " " + "Crore")
-
-  $('#24_n').text(data.name + " " + "24h High / 24h Low")
-  $('#24h').text("₹" + " " + number.format(data.market_data.high_24h.inr) +" "+ "/" +" "+ "₹" + " " + number.format(data.market_data.low_24h.inr))
-
-  $('#athn').text(data.name + " " + "All-Time High")
-  $('#ath').append(
-
-    $(`<p class=' ${data.market_data.ath_change_percentage.inr >= 0 ? "text-success" : "text-danger"} 
- text-left'></p>`).text("₹" + " " + number.format(data.market_data.ath.inr)+ " "+"/"+"  "+ Number(data.market_data.ath_change_percentage.inr).toFixed(2) + "%")
-  )
-
-  $('#atln').text(data.name + " " + "All-Time Low")
-  $('#atl').append(
-
-    $(`<p class=' ${data.market_data.atl_change_percentage.inr >= 0 ? "text-success" : "text-danger"} 
- text-left'></p>`).text("₹" + " " + number.format(data.market_data.atl.inr)+ " "+"/"+"  "+ Number(data.market_data.atl_change_percentage.inr).toFixed(2) + "%" + " " )
-  )
-
-  $('#market_dom_n').text(data.name + " " + "Market Cap Rank")
-  $('#market_dom').text( number.format(data.market_data.market_cap_rank))
-
-  $('#tsn').text(data.name + " " + "Total Supply")
-  $('#ts').text( number.format(data.market_data.total_supply / 10000000) + " " + "Crore")
-
-  $('#csn').text(data.name + " " + "Circulating Supply")
-  $('#cs').text( number.format(data.market_data.circulating_supply / 10000000) + " " + "Crore")
-
-  $('#han').text(data.name + " " + "Hashing Algorithm")
-  $('#ha').text((data.hashing_algorithm))
-
-  $('#btname').text(data.name + " " + "Block Time")
-  $('#bt').text((data.block_time_in_minutes) + " " + "Minutes")
-
-  $('#dtn').text("What is"+ " "+data.name + " " + "?")
-  $('#desc').html(data.description.en)
-
-  $('#athnd').text(data.name + " " + "ATH Date")
-  $('#athd').text((moment(data.market_data.ath_date.inr)).format("llll") + " " + "("+ (moment(data.market_data.ath_date.inr, "YYYYMMDD")).fromNow()+ ")")
-
-  $('#atlnd').text(data.name + " " + "ATL Date")
-  $('#atld').text((moment(data.market_data.atl_date.inr)).format("llll") + " " + "("+ (moment(data.market_data.atl_date.inr, "YYYYMMDD")).fromNow()+ ")")
-
-  $('<li class="list-group-item"></li>').html("Homepage: " + 
-      data.links.homepage[0].link(data.links.homepage[0]))
-
-      $('#hpgn').text(data.name + " " + "HomePage")
-      $('#hpg').html(data.links.homepage[0].link(data.links.homepage[0]))
-
-
-
-
-      // Define a function to format the currency value based on the selected currency
+  )     
+// Define a function to format the currency value based on the selected currency
 function formatCurrencyValue(value, currencyCode) {
   switch (currencyCode) {
-    case "aed":
-      return "د.إ" + " " + number.format(value);
-    case "ars":
-      return "$" + " " + number.format(value);
-    case "aud":
-      return "$" + " " + number.format(value);
-    case "bdt":
-      return "৳" + " " + number.format(value);
-    case "bhd":
-      return "ب.د" + " " + number.format(value);
-    case "bmd":
-      return "$" + " " + number.format(value);
-    case "brl":
-      return "R$" + " " + number.format(value);
-    case "cad":
-      return "$" + " " + number.format(value);
-    case "chf":
-      return "CHF" + " " + number.format(value);
-    case "clp":
-      return "$" + " " + number.format(value);
-    case "czk":
-      return "Kč" + " " + number.format(value);
-    case "dkk":
-      return "kr" + " " + number.format(value);
-    case "gbp":
-      return "£" + " " + number.format(value);
-    case "hkd":
-      return "$" + " " + number.format(value);
-    case "huf":
-      return "Ft" + " " + number.format(value);
-    case "ils":
-      return "₪" + " " + number.format(value);
     case "inr":
       return "₹" + " " + number.format(value);
-    case "kwd":
-      return "ك.د" + " " + number.format(value);
-    case "lkr":
-      return "රු" + " " + number.format(value);
-    case "mmk":
-      return "K" + " " + number.format(value);
-    case "mxn":
+    case "usd":
       return "$" + " " + number.format(value);
-    case "myr":
-      return "RM" + " " + number.format(value);
-    case "ngn":
-      return "₦" + " " + number.format(value);
-    case "nok":
-      return "kr" + " " + number.format(value);
-    case "nzd":
-      return "$" + " " + number.format(value);
-    case "php":
-      return "₱" + " " + number.format(value);
-    case "pkr":
-      return "₨" + " " + number.format(value);
-    case "pln":
-      return "zł" + " " + number.format(value);
-    case "sar":
-      return "ر.س" + " " + number.format(value);
-    case "sek":
-      return "kr" + " " + number.format(value);
-    case "sgd":
-      return "$" + " " + number.format(value);
-    case "thb":
-      return "฿" + " " + number.format(value);
-    case "try":
-      return "₺" + " " + number.format(value);
-    case "uah":
-      return "₴" + " " + number.format(value);
-    case "vef":
-      return "Bs.F." + " " + number.format(value);
-    case "vnd":
-      return "₫" + " " + number.format(value);
-    case "zar":
-      return "R" + " " + number.format(value);
-    case "xdr":
-      return "SDR" + " " + number.format(value);
-      case "usd":
-    return "$" + " " + number.format(value);
-  case "idr":
-    return "Rp" + " " + number.format(value);
-  case "twd":
-    return "NT$" + " " + number.format(value);
-  case "eur":
-    return "€" + " " + number.format(value);
-  case "krw":
-    return "₩" + " " + number.format(value);
-  case "jpy":
-    return "¥" + " " + number.format(value);
-  case "rub":
-    return "₽" + " " + number.format(value);
-  case "cny":
-    return "¥" + " " + number.format(value);
+    case "eur":
+      return "€" + " " + number.format(value);
     default:
       return value;
   }
-  
 }
 
 // Define a variable to hold the selected currency code
@@ -269,9 +122,8 @@ function updateValues(data) {
 
   $('#csn').text(data.name + " " + "Circulating Supply");
 }
-     
-
 };
+
 function generateTrendBody(data){
   let btc = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=inr"
   btcData()
