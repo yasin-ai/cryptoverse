@@ -1,100 +1,205 @@
 [
   {
-    "rank": "52",
-    "name": "Rocket Pool",
-    "price": "$52.91",
-    "change": "5.16%",
-    "volume": "$23,646,557"
-  },
-  {
-    "rank": "100",
-    "name": "Arweave",
-    "price": "$12.63",
-    "change": "4.74%",
-    "volume": "$97,014,434"
-  },
-  {
-    "rank": "40",
-    "name": "Fantom",
-    "price": "$0.5461",
-    "change": "3.95%",
-    "volume": "$367,781,919"
-  },
-  {
-    "rank": "24",
-    "name": "OKB",
-    "price": "$52.52",
-    "change": "3.16%",
-    "volume": "$136,327,499"
-  },
-  {
-    "rank": "88",
-    "name": "Render Token",
-    "price": "$1.88",
-    "change": "3.15%",
-    "volume": "$154,242,771"
-  },
-  {
-    "rank": "60",
-    "name": "ImmutableX",
-    "price": "$1.08",
-    "change": "3.13%",
-    "volume": "$75,264,498"
-  },
-  {
-    "rank": "96",
-    "name": "Astar",
-    "price": "$0.1033",
-    "change": "3.00%",
-    "volume": "$55,661,638"
-  },
-  {
-    "rank": "95",
-    "name": "Oasis Network",
-    "price": "$0.07563",
-    "change": "2.91%",
-    "volume": "$63,929,043"
+    "rank": "35",
+    "name": "Internet Computer",
+    "price": "$7.14",
+    "change": "4.05%",
+    "volume": "$130,279,451"
   },
   {
     "rank": "90",
     "name": "dYdX",
-    "price": "$3.03",
-    "change": "2.02%",
-    "volume": "$183,313,193"
+    "price": "$3.02",
+    "change": "2.61%",
+    "volume": "$147,657,732"
   },
   {
-    "rank": "89",
-    "name": "BinaryX",
-    "price": "$165.32",
-    "change": "1.69%",
-    "volume": "$28,826,208"
+    "rank": "22",
+    "name": "OKB",
+    "price": "$53.16",
+    "change": "2.33%",
+    "volume": "$132,484,849"
+  },
+  {
+    "rank": "91",
+    "name": "Render Token",
+    "price": "$1.84",
+    "change": "2.02%",
+    "volume": "$121,351,757"
+  },
+  {
+    "rank": "86",
+    "name": "Convex Finance",
+    "price": "$6.62",
+    "change": "1.67%",
+    "volume": "$9,897,114"
+  },
+  {
+    "rank": "32",
+    "name": "Hedera",
+    "price": "$0.08597",
+    "change": "1.26%",
+    "volume": "$44,355,755"
+  },
+  {
+    "rank": "12",
+    "name": "Polkadot",
+    "price": "$7.23",
+    "change": "1.25%",
+    "volume": "$529,330,276"
+  },
+  {
+    "rank": "74",
+    "name": "GMX",
+    "price": "$79.63",
+    "change": "1.25%",
+    "volume": "$76,220,150"
+  },
+  {
+    "rank": "94",
+    "name": "Oasis Network",
+    "price": "$0.0772",
+    "change": "1.19%",
+    "volume": "$62,220,304"
+  },
+  {
+    "rank": "62",
+    "name": "ImmutableX",
+    "price": "$1.07",
+    "change": "0.84%",
+    "volume": "$65,337,278"
   },
   {
     "rank": "31",
     "name": "Aptos",
-    "price": "$14.46",
-    "change": "0.44%",
-    "volume": "$502,951,509"
+    "price": "$14.50",
+    "change": "0.79%",
+    "volume": "$434,309,520"
+  },
+  {
+    "rank": "83",
+    "name": "SingularityNET",
+    "price": "$0.4297",
+    "change": "0.76%",
+    "volume": "$89,796,037"
+  },
+  {
+    "rank": "66",
+    "name": "Dash",
+    "price": "$72.60",
+    "change": "0.69%",
+    "volume": "$121,010,722"
+  },
+  {
+    "rank": "73",
+    "name": "Neo",
+    "price": "$9.72",
+    "change": "0.61%",
+    "volume": "$74,236,814"
+  },
+  {
+    "rank": "15",
+    "name": "TRON",
+    "price": "$0.07006",
+    "change": "0.57%",
+    "volume": "$273,122,424"
+  },
+  {
+    "rank": "88",
+    "name": "BinaryX",
+    "price": "$168.12",
+    "change": "0.56%",
+    "volume": "$28,745,864"
+  },
+  {
+    "rank": "39",
+    "name": "Quant",
+    "price": "$139.49",
+    "change": "0.54%",
+    "volume": "$26,890,942"
+  },
+  {
+    "rank": "98",
+    "name": "Nexo",
+    "price": "$0.754",
+    "change": "0.43%",
+    "volume": "$6,046,984"
+  },
+  {
+    "rank": "14",
+    "name": "Litecoin",
+    "price": "$99.99",
+    "change": "0.41%",
+    "volume": "$726,025,834"
+  },
+  {
+    "rank": "97",
+    "name": "Fei USD",
+    "price": "$0.9953",
+    "change": "0.28%",
+    "volume": "$235,385"
+  },
+  {
+    "rank": "9",
+    "name": "Polygon",
+    "price": "$1.49",
+    "change": "0.23%",
+    "volume": "$972,081,079"
+  },
+  {
+    "rank": "41",
+    "name": "Fantom",
+    "price": "$0.5592",
+    "change": "0.18%",
+    "volume": "$318,424,905"
   },
   {
     "rank": "68",
     "name": "USDD",
-    "price": "$0.999",
-    "change": "0.13%",
-    "volume": "$57,325,670"
+    "price": "$0.9982",
+    "change": "0.15%",
+    "volume": "$64,671,025"
   },
   {
-    "rank": "54",
-    "name": "TrueUSD",
-    "price": "$0.9999",
-    "change": "0.02%",
-    "volume": "$43,843,310"
+    "rank": "37",
+    "name": "VeChain",
+    "price": "$0.02731",
+    "change": "0.08%",
+    "volume": "$120,567,785"
+  },
+  {
+    "rank": "8",
+    "name": "Binance USD",
+    "price": "$1.00",
+    "change": "0.04%",
+    "volume": "$7,008,741,892"
   },
   {
     "rank": "18",
     "name": "Dai",
+    "price": "$0.9999",
+    "change": "0.03%",
+    "volume": "$142,725,807"
+  },
+  {
+    "rank": "5",
+    "name": "USD Coin",
+    "price": "$0.9999",
+    "change": "0.01%",
+    "volume": "$3,296,813,620"
+  },
+  {
+    "rank": "76",
+    "name": "Optimism",
+    "price": "$2.78",
+    "change": "0.01%",
+    "volume": "$271,617,787"
+  },
+  {
+    "rank": "54",
+    "name": "TrueUSD",
     "price": "$1.00",
     "change": "0.01%",
-    "volume": "$182,867,088"
+    "volume": "$42,107,617"
   }
 ]
