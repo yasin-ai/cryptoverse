@@ -1,212 +1,212 @@
 [
   {
-    "rank": "101",
+    "rank": "90",
     "name": "Blur",
-    "price": "$1.17",
-    "change": "19.73%",
-    "volume": "$687,215,061"
+    "price": "$1.34",
+    "change": "20.69%",
+    "volume": "$705,190,386"
+  },
+  {
+    "rank": "81",
+    "name": "Stacks",
+    "price": "$0.4114",
+    "change": "15.32%",
+    "volume": "$137,456,379"
+  },
+  {
+    "rank": "97",
+    "name": "WOO Network",
+    "price": "$0.2644",
+    "change": "7.26%",
+    "volume": "$65,008,708"
+  },
+  {
+    "rank": "82",
+    "name": "Osmosis",
+    "price": "$1.09",
+    "change": "7.04%",
+    "volume": "$21,403,932"
+  },
+  {
+    "rank": "25",
+    "name": "Filecoin",
+    "price": "$8.20",
+    "change": "6.68%",
+    "volume": "$803,493,455"
   },
   {
     "rank": "28",
     "name": "Lido DAO",
-    "price": "$3.27",
-    "change": "9.63%",
-    "volume": "$306,149,716"
-  },
-  {
-    "rank": "99",
-    "name": "WOO Network",
-    "price": "$0.2571",
-    "change": "9.36%",
-    "volume": "$62,832,431"
-  },
-  {
-    "rank": "60",
-    "name": "Klaytn",
-    "price": "$0.2781",
-    "change": "9.34%",
-    "volume": "$212,413,904"
-  },
-  {
-    "rank": "21",
-    "name": "Chainlink",
-    "price": "$8.06",
-    "change": "8.57%",
-    "volume": "$1,040,836,554"
+    "price": "$3.19",
+    "change": "6.53%",
+    "volume": "$296,901,911"
   },
   {
     "rank": "40",
     "name": "The Graph",
-    "price": "$0.1807",
-    "change": "7.78%",
-    "volume": "$133,811,724"
+    "price": "$0.1782",
+    "change": "4.68%",
+    "volume": "$192,191,429"
   },
   {
-    "rank": "45",
-    "name": "MultiversX",
-    "price": "$52.57",
-    "change": "7.16%",
-    "volume": "$62,034,512"
+    "rank": "21",
+    "name": "Chainlink",
+    "price": "$8.00",
+    "change": "4.60%",
+    "volume": "$753,003,081"
   },
   {
-    "rank": "89",
-    "name": "Stacks",
-    "price": "$0.3486",
-    "change": "6.20%",
-    "volume": "$34,012,599"
+    "rank": "61",
+    "name": "Klaytn",
+    "price": "$0.2713",
+    "change": "4.15%",
+    "volume": "$184,659,068"
   },
   {
-    "rank": "33",
-    "name": "NEAR Protocol",
-    "price": "$2.58",
-    "change": "5.68%",
-    "volume": "$230,552,762"
+    "rank": "56",
+    "name": "Curve DAO Token",
+    "price": "$1.25",
+    "change": "3.96%",
+    "volume": "$126,385,000"
   },
   {
-    "rank": "81",
-    "name": "Osmosis",
-    "price": "$1.06",
-    "change": "4.95%",
-    "volume": "$19,076,568"
+    "rank": "52",
+    "name": "Rocket Pool",
+    "price": "$53.82",
+    "change": "3.49%",
+    "volume": "$20,968,958"
   },
   {
-    "rank": "43",
-    "name": "EOS",
-    "price": "$1.24",
-    "change": "4.92%",
-    "volume": "$445,410,592"
+    "rank": "32",
+    "name": "Hedera",
+    "price": "$0.08819",
+    "change": "2.79%",
+    "volume": "$38,624,916"
   },
   {
-    "rank": "17",
-    "name": "Uniswap",
-    "price": "$7.05",
-    "change": "4.64%",
-    "volume": "$192,123,542"
+    "rank": "58",
+    "name": "KuCoin Token",
+    "price": "$9.03",
+    "change": "2.66%",
+    "volume": "$2,273,302"
+  },
+  {
+    "rank": "47",
+    "name": "BitDAO",
+    "price": "$0.612",
+    "change": "2.60%",
+    "volume": "$11,047,630"
+  },
+  {
+    "rank": "94",
+    "name": "Astar",
+    "price": "$0.1108",
+    "change": "2.60%",
+    "volume": "$43,263,656"
   },
   {
     "rank": "46",
     "name": "Aave",
-    "price": "$90.14",
-    "change": "4.35%",
-    "volume": "$108,074,664"
+    "price": "$90.72",
+    "change": "2.56%",
+    "volume": "$101,624,540"
   },
   {
-    "rank": "82",
-    "name": "Zilliqa",
-    "price": "$0.03269",
-    "change": "4.33%",
-    "volume": "$128,870,854"
-  },
-  {
-    "rank": "57",
-    "name": "KuCoin Token",
-    "price": "$9.07",
-    "change": "3.77%",
-    "volume": "$1,992,036"
-  },
-  {
-    "rank": "61",
-    "name": "Frax Share",
-    "price": "$11.47",
-    "change": "3.74%",
-    "volume": "$64,344,842"
-  },
-  {
-    "rank": "34",
-    "name": "ApeCoin",
-    "price": "$5.71",
-    "change": "3.70%",
-    "volume": "$121,679,997"
+    "rank": "33",
+    "name": "NEAR Protocol",
+    "price": "$2.56",
+    "change": "1.56%",
+    "volume": "$208,253,453"
   },
   {
     "rank": "30",
     "name": "Stellar",
-    "price": "$0.0923",
-    "change": "3.20%",
-    "volume": "$84,962,307"
-  },
-  {
-    "rank": "51",
-    "name": "Tezos",
-    "price": "$1.18",
-    "change": "2.98%",
-    "volume": "$31,040,959"
-  },
-  {
-    "rank": "42",
-    "name": "Flow",
-    "price": "$1.32",
-    "change": "2.97%",
-    "volume": "$197,968,604"
-  },
-  {
-    "rank": "48",
-    "name": "Axie Infinity",
-    "price": "$10.88",
-    "change": "2.72%",
-    "volume": "$133,976,246"
-  },
-  {
-    "rank": "95",
-    "name": "EthereumPoW",
-    "price": "$4.05",
-    "change": "2.63%",
-    "volume": "$23,037,886"
-  },
-  {
-    "rank": "53",
-    "name": "Terra Classic",
-    "price": "$0.0001727",
-    "change": "2.45%",
-    "volume": "$114,826,022"
-  },
-  {
-    "rank": "67",
-    "name": "Zcash",
-    "price": "$46.35",
-    "change": "2.44%",
-    "volume": "$76,812,980"
-  },
-  {
-    "rank": "11",
-    "name": "Solana",
-    "price": "$23.61",
-    "change": "2.23%",
-    "volume": "$463,066,902"
-  },
-  {
-    "rank": "25",
-    "name": "Monero",
-    "price": "$163.18",
-    "change": "2.14%",
-    "volume": "$74,539,259"
-  },
-  {
-    "rank": "78",
-    "name": "Loopring",
-    "price": "$0.4537",
-    "change": "2.02%",
-    "volume": "$82,418,651"
-  },
-  {
-    "rank": "24",
-    "name": "Ethereum Classic",
-    "price": "$22.74",
-    "change": "1.98%",
-    "volume": "$247,599,269"
-  },
-  {
-    "rank": "87",
-    "name": "Enjin Coin",
-    "price": "$0.4932",
-    "change": "1.92%",
-    "volume": "$30,479,037"
+    "price": "$0.09201",
+    "change": "1.52%",
+    "volume": "$75,807,550"
   },
   {
     "rank": "29",
     "name": "Bitcoin Cash",
-    "price": "$136.24",
-    "change": "1.90%",
-    "volume": "$213,236,994"
+    "price": "$136.13",
+    "change": "1.52%",
+    "volume": "$208,272,113"
+  },
+  {
+    "rank": "17",
+    "name": "Uniswap",
+    "price": "$7.03",
+    "change": "1.44%",
+    "volume": "$147,811,430"
+  },
+  {
+    "rank": "99",
+    "name": "Casper",
+    "price": "$0.03952",
+    "change": "1.27%",
+    "volume": "$7,865,575"
+  },
+  {
+    "rank": "26",
+    "name": "Monero",
+    "price": "$161.63",
+    "change": "1.13%",
+    "volume": "$62,249,473"
+  },
+  {
+    "rank": "24",
+    "name": "Ethereum Classic",
+    "price": "$22.70",
+    "change": "1.12%",
+    "volume": "$217,282,344"
+  },
+  {
+    "rank": "80",
+    "name": "THORChain",
+    "price": "$1.78",
+    "change": "0.80%",
+    "volume": "$40,758,900"
+  },
+  {
+    "rank": "53",
+    "name": "Terra Classic",
+    "price": "$0.000172",
+    "change": "0.71%",
+    "volume": "$118,659,628"
+  },
+  {
+    "rank": "10",
+    "name": "Dogecoin",
+    "price": "$0.0888",
+    "change": "0.70%",
+    "volume": "$390,111,686"
+  },
+  {
+    "rank": "34",
+    "name": "Internet Computer",
+    "price": "$7.44",
+    "change": "0.67%",
+    "volume": "$89,303,151"
+  },
+  {
+    "rank": "85",
+    "name": "GateToken",
+    "price": "$4.69",
+    "change": "0.57%",
+    "volume": "$1,246,615"
+  },
+  {
+    "rank": "27",
+    "name": "Toncoin",
+    "price": "$2.34",
+    "change": "0.54%",
+    "volume": "$27,249,320"
+  },
+  {
+    "rank": "89",
+    "name": "BinaryX",
+    "price": "$168.39",
+    "change": "0.47%",
+    "volume": "$1,334,822"
   }
 ]

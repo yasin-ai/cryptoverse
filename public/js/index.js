@@ -61,20 +61,20 @@ function generateCoinTableBody(data) {
   for (let key in data) {
      $('#coinTableBody').append(
       $('<tr class="content-row"></tr>').append(
-        $('<td class="text-center"></td>').text(data[key].market_cap_rank),
-        $('<td id="specific" class="text-left"></td>').append(
+        $('<td class="text-center sticky-col first-col"></td>').text(data[key].market_cap_rank),
+        $('<td id="specific" class="text-left sticky-col second-col"></td>').append(
           $('<div></div>').append(
             `<img src="${data[key].image}" width="25"> <a href="/coin.html?${data[key].id}">
             ${data[key].name}</a>`)),
-        $('<td class="text-right boldText"></td>').text(`${currencySymbol} ${number.format(data[key].current_price.toFixed(6))}`),
+        $('<td class="text-right boldText"></td>').text(`${currencySymbol}${number.format(data[key].current_price.toFixed(6))}`),
         
         $(`<td class='${data[key].price_change_percentage_24h >= 0 ? "text-success" : "text-danger"} 
         text-right'></td>`).text(`${Number(data[key].price_change_percentage_24h).toFixed(2)}%`),
-        $('<td class="text-right"></td>').text(`${currencySymbol} ${number.format(data[key].total_volume)}`),
-        $('<td class="text-right"></td>').text(`${number.format(data[key].circulating_supply.toFixed())} ${data[key].symbol.toUpperCase()}`),
-        $('<td class="text-right"></td>').text(`${currencySymbol} ${number.format(data[key].market_cap)}`),
-        $('<td class="text-right"></td>').text(`${currencySymbol} ${number.format(data[key].ath.toFixed(2))}`),
-        $('<td class="text-right"></td>').text(`${currencySymbol} ${number.format(data[key].atl.toFixed(6))}`)
+        $('<td class="text-right"></td>').text(`${currencySymbol}${number.format(data[key].total_volume)}`),
+        $('<td class="text-right"></td>').text(`${number.format(data[key].circulating_supply.toFixed())}${data[key].symbol.toUpperCase()}`),
+        $('<td class="text-right"></td>').text(`${currencySymbol}${number.format(data[key].market_cap)}`),
+        $('<td class="text-right"></td>').text(`${currencySymbol}${number.format(data[key].ath.toFixed(2))}`),
+        $('<td class="text-right"></td>').text(`${currencySymbol}${number.format(data[key].atl.toFixed(6))}`)
       )
     );
   };
@@ -185,97 +185,97 @@ function getCurrenySymbol() {
   const currency = getSelectedCurrency();
   switch (currency) {
     case "aed":
-      return "د.إ" + " " ;
+      return "د.إ"  ;
     case "ars":
-      return "$" + " " ;
+      return "$"  ;
     case "aud":
-      return "$" + " " ;
+      return "$"  ;
     case "bdt":
-      return "৳" + " " ;
+      return "৳"  ;
     case "bhd":
-      return "ب.د" + " " ;
+      return "ب.د"  ;
     case "bmd":
-      return "$" + " " ;
+      return "$"  ;
     case "brl":
-      return "R$" + " " ;
+      return "R$"  ;
     case "cad":
-      return "$" + " " ;
+      return "$"  ;
     case "chf":
-      return "CHF" + " " ;
+      return "CHF"  ;
     case "clp":
-      return "$" + " " ;
+      return "$"  ;
     case "czk":
-      return "Kč" + " " ;
+      return "Kč"  ;
     case "dkk":
-      return "kr" + " " ;
+      return "kr"  ;
     case "gbp":
-      return "£" + " " ;
+      return "£"  ;
     case "hkd":
-      return "$" + " " ;
+      return "$"  ;
     case "huf":
-      return "Ft" + " " ;
+      return "Ft"  ;
     case "ils":
-      return "₪" + " " ;
+      return "₪"  ;
     case "inr":
-      return "₹" + " " ;
+      return "₹";
     case "kwd":
-      return "ك.د" + " " ;
+      return "ك.د"  ;
     case "lkr":
-      return "රු" + " " ;
+      return "රු"  ;
     case "mmk":
-      return "K" + " " ;
+      return "K"  ;
     case "mxn":
-      return "$" + " " ;
+      return "$"  ;
     case "myr":
-      return "RM" + " " ;
+      return "RM"  ;
     case "ngn":
-      return "₦" + " " ;
+      return "₦"  ;
     case "nok":
-      return "kr" + " " ;
+      return "kr"  ;
     case "nzd":
-      return "$" + " " ;
+      return "$"  ;
     case "php":
-      return "₱" + " " ;
+      return "₱"  ;
     case "pkr":
-      return "₨" + " " ;
+      return "₨"  ;
     case "pln":
-      return "zł" + " " ;
+      return "zł"  ;
     case "sar":
-      return "ر.س" + " " ;
+      return "ر.س"  ;
     case "sek":
-      return "kr" + " " ;
+      return "kr"  ;
     case "sgd":
-      return "$" + " " ;
+      return "$"  ;
     case "thb":
-      return "฿" + " " ;
+      return "฿"  ;
     case "try":
-      return "₺" + " " ;
+      return "₺"  ;
     case "uah":
-      return "₴" + " " ;
+      return "₴"  ;
     case "vef":
-      return "Bs.F." + " " ;
+      return "Bs.F."  ;
     case "vnd":
-      return "₫" + " " ;
+      return "₫"  ;
     case "zar":
-      return "R" + " " ;
+      return "R"  ;
     case "xdr":
-      return "SDR" + " " ;
+      return "SDR"  ;
       case "usd":
-    return "$" + " " ;
+    return "$"  ;
   case "idr":
-    return "Rp" + " " ;
+    return "Rp"  ;
   case "twd":
-    return "NT$" + " " ;
+    return "NT$"  ;
   case "eur":
-    return "€" + " " ;
+    return "€"  ;
   case "krw":
-    return "₩" + " " ;
+    return "₩"  ;
   case "jpy":
-    return "¥" + " " ;
+    return "¥"  ;
   case "rub":
-    return "₽" + " " ;
+    return "₽"  ;
   case "cny":
-    return "¥" + " " ;
+    return "¥"  ;
   
     // Add cases for other currencies as needed
     default:

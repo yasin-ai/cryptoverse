@@ -152,9 +152,10 @@ app.use("/images", express.static(__dirname + "/public/images"));
 app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'public', req.url));
 });
+app.set("views", "./views");
 app.set("view engine", "ejs");
 app.use("/events", require("./routes/event"));
-app.set("views", "./views");
+
 
 
 

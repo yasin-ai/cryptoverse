@@ -1,205 +1,212 @@
 [
   {
-    "rank": "35",
-    "name": "Internet Computer",
-    "price": "$7.14",
-    "change": "4.05%",
-    "volume": "$130,279,451"
+    "rank": "42",
+    "name": "Flow",
+    "price": "$1.31",
+    "change": "5.00%",
+    "volume": "$111,692,233"
   },
   {
-    "rank": "90",
-    "name": "dYdX",
-    "price": "$3.02",
-    "change": "2.61%",
-    "volume": "$147,657,732"
+    "rank": "57",
+    "name": "Mina",
+    "price": "$1.06",
+    "change": "4.17%",
+    "volume": "$67,234,931"
   },
   {
-    "rank": "22",
-    "name": "OKB",
-    "price": "$53.16",
-    "change": "2.33%",
-    "volume": "$132,484,849"
+    "rank": "49",
+    "name": "Theta Network",
+    "price": "$1.20",
+    "change": "4.17%",
+    "volume": "$29,791,211"
   },
   {
-    "rank": "91",
-    "name": "Render Token",
-    "price": "$1.84",
-    "change": "2.02%",
-    "volume": "$121,351,757"
-  },
-  {
-    "rank": "86",
-    "name": "Convex Finance",
-    "price": "$6.62",
-    "change": "1.67%",
-    "volume": "$9,897,114"
-  },
-  {
-    "rank": "32",
-    "name": "Hedera",
-    "price": "$0.08597",
-    "change": "1.26%",
-    "volume": "$44,355,755"
-  },
-  {
-    "rank": "12",
-    "name": "Polkadot",
-    "price": "$7.23",
-    "change": "1.25%",
-    "volume": "$529,330,276"
-  },
-  {
-    "rank": "74",
+    "rank": "73",
     "name": "GMX",
-    "price": "$79.63",
-    "change": "1.25%",
-    "volume": "$76,220,150"
+    "price": "$81.11",
+    "change": "4.03%",
+    "volume": "$52,055,667"
   },
   {
-    "rank": "94",
-    "name": "Oasis Network",
-    "price": "$0.0772",
-    "change": "1.19%",
-    "volume": "$62,220,304"
-  },
-  {
-    "rank": "62",
-    "name": "ImmutableX",
-    "price": "$1.07",
-    "change": "0.84%",
-    "volume": "$65,337,278"
-  },
-  {
-    "rank": "31",
-    "name": "Aptos",
-    "price": "$14.50",
-    "change": "0.79%",
-    "volume": "$434,309,520"
+    "rank": "79",
+    "name": "Loopring",
+    "price": "$0.4514",
+    "change": "3.97%",
+    "volume": "$60,760,094"
   },
   {
     "rank": "83",
     "name": "SingularityNET",
-    "price": "$0.4297",
-    "change": "0.76%",
-    "volume": "$89,796,037"
+    "price": "$0.4289",
+    "change": "3.86%",
+    "volume": "$64,795,556"
   },
   {
-    "rank": "66",
-    "name": "Dash",
-    "price": "$72.60",
-    "change": "0.69%",
-    "volume": "$121,010,722"
+    "rank": "22",
+    "name": "OKB",
+    "price": "$53.52",
+    "change": "3.49%",
+    "volume": "$101,898,239"
   },
   {
-    "rank": "73",
-    "name": "Neo",
-    "price": "$9.72",
-    "change": "0.61%",
-    "volume": "$74,236,814"
+    "rank": "31",
+    "name": "Aptos",
+    "price": "$14.35",
+    "change": "3.09%",
+    "volume": "$313,049,319"
   },
   {
-    "rank": "15",
-    "name": "TRON",
-    "price": "$0.07006",
-    "change": "0.57%",
-    "volume": "$273,122,424"
+    "rank": "100",
+    "name": "Arweave",
+    "price": "$12.81",
+    "change": "3.08%",
+    "volume": "$63,068,838"
   },
   {
-    "rank": "88",
-    "name": "BinaryX",
-    "price": "$168.12",
-    "change": "0.56%",
-    "volume": "$28,745,864"
-  },
-  {
-    "rank": "39",
-    "name": "Quant",
-    "price": "$139.49",
-    "change": "0.54%",
-    "volume": "$26,890,942"
-  },
-  {
-    "rank": "98",
-    "name": "Nexo",
-    "price": "$0.754",
-    "change": "0.43%",
-    "volume": "$6,046,984"
-  },
-  {
-    "rank": "14",
-    "name": "Litecoin",
-    "price": "$99.99",
-    "change": "0.41%",
-    "volume": "$726,025,834"
-  },
-  {
-    "rank": "97",
-    "name": "Fei USD",
-    "price": "$0.9953",
-    "change": "0.28%",
-    "volume": "$235,385"
-  },
-  {
-    "rank": "9",
-    "name": "Polygon",
-    "price": "$1.49",
-    "change": "0.23%",
-    "volume": "$972,081,079"
+    "rank": "60",
+    "name": "ImmutableX",
+    "price": "$1.08",
+    "change": "2.91%",
+    "volume": "$53,443,512"
   },
   {
     "rank": "41",
     "name": "Fantom",
-    "price": "$0.5592",
-    "change": "0.18%",
-    "volume": "$318,424,905"
+    "price": "$0.5428",
+    "change": "2.69%",
+    "volume": "$250,053,523"
   },
   {
-    "rank": "68",
-    "name": "USDD",
-    "price": "$0.9982",
-    "change": "0.15%",
-    "volume": "$64,671,025"
+    "rank": "66",
+    "name": "Dash",
+    "price": "$71.79",
+    "change": "2.61%",
+    "volume": "$103,900,967"
+  },
+  {
+    "rank": "98",
+    "name": "Oasis Network",
+    "price": "$0.07588",
+    "change": "2.48%",
+    "volume": "$51,786,619"
+  },
+  {
+    "rank": "9",
+    "name": "Polygon",
+    "price": "$1.51",
+    "change": "2.43%",
+    "volume": "$602,907,962"
+  },
+  {
+    "rank": "84",
+    "name": "Zilliqa",
+    "price": "$0.0324",
+    "change": "2.28%",
+    "volume": "$58,019,236"
   },
   {
     "rank": "37",
     "name": "VeChain",
-    "price": "$0.02731",
-    "change": "0.08%",
-    "volume": "$120,567,785"
+    "price": "$0.02745",
+    "change": "2.18%",
+    "volume": "$66,039,879"
   },
   {
-    "rank": "8",
-    "name": "Binance USD",
-    "price": "$1.00",
-    "change": "0.04%",
-    "volume": "$7,008,741,892"
+    "rank": "92",
+    "name": "Render Token",
+    "price": "$1.83",
+    "change": "2.18%",
+    "volume": "$91,372,397"
   },
   {
-    "rank": "18",
-    "name": "Dai",
-    "price": "$0.9999",
-    "change": "0.03%",
-    "volume": "$142,725,807"
+    "rank": "74",
+    "name": "Neo",
+    "price": "$9.62",
+    "change": "2.10%",
+    "volume": "$50,580,329"
   },
   {
-    "rank": "5",
-    "name": "USD Coin",
-    "price": "$0.9999",
-    "change": "0.01%",
-    "volume": "$3,296,813,620"
+    "rank": "91",
+    "name": "dYdX",
+    "price": "$3.04",
+    "change": "1.94%",
+    "volume": "$118,140,663"
+  },
+  {
+    "rank": "87",
+    "name": "Convex Finance",
+    "price": "$6.62",
+    "change": "1.83%",
+    "volume": "$7,631,564"
+  },
+  {
+    "rank": "44",
+    "name": "Decentraland",
+    "price": "$0.7164",
+    "change": "1.81%",
+    "volume": "$82,781,456"
+  },
+  {
+    "rank": "62",
+    "name": "Huobi Token",
+    "price": "$5.16",
+    "change": "1.72%",
+    "volume": "$15,570,661"
+  },
+  {
+    "rank": "48",
+    "name": "Axie Infinity",
+    "price": "$10.84",
+    "change": "1.62%",
+    "volume": "$88,785,397"
+  },
+  {
+    "rank": "75",
+    "name": "Synthetix",
+    "price": "$2.59",
+    "change": "1.61%",
+    "volume": "$34,212,170"
   },
   {
     "rank": "76",
     "name": "Optimism",
-    "price": "$2.78",
-    "change": "0.01%",
-    "volume": "$271,617,787"
+    "price": "$2.76",
+    "change": "1.60%",
+    "volume": "$200,749,193"
   },
   {
-    "rank": "54",
-    "name": "TrueUSD",
-    "price": "$1.00",
-    "change": "0.01%",
-    "volume": "$42,107,617"
+    "rank": "67",
+    "name": "Zcash",
+    "price": "$46.06",
+    "change": "1.49%",
+    "volume": "$68,075,796"
+  },
+  {
+    "rank": "50",
+    "name": "The Sandbox",
+    "price": "$0.7679",
+    "change": "1.27%",
+    "volume": "$170,448,444"
+  },
+  {
+    "rank": "71",
+    "name": "eCash",
+    "price": "$0.00003608",
+    "change": "1.14%",
+    "volume": "$12,165,161"
+  },
+  {
+    "rank": "96",
+    "name": "EthereumPoW",
+    "price": "$4.03",
+    "change": "1.10%",
+    "volume": "$17,169,216"
+  },
+  {
+    "rank": "39",
+    "name": "Quant",
+    "price": "$140.37",
+    "change": "1.06%",
+    "volume": "$21,003,137"
   }
 ]
