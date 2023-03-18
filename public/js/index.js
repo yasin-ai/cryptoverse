@@ -12,6 +12,10 @@ let globaldata = 'https://api.coingecko.com/api/v3/global';
 let trendingurl = "https://api.coingecko.com/api/v3/search/trending";
 
 $(document).ready( () => {
+  $("#announcementModal").modal('show');
+  $(".close").click(function(){
+    $("#announcementModal").modal('hide');
+  });
   $('body').on('mouseenter mouseleave','.nav-item',function(e){
     if ($(window).width() > 750) {
       var _d=$(e.target).closest('.nav-item');_d.addClass('show');
